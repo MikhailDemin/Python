@@ -31,3 +31,4 @@ with open('text_7.txt', 'r', encoding='utf-8') as read_file:
                 average_profit_lst.append(n)
         dump([dictionary, {"average_profit": sum(average_profit_lst) / len(average_profit_lst)}],
              write_file, ensure_ascii=False, indent=4)
+

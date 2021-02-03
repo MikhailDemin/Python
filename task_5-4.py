@@ -45,3 +45,4 @@ with open("task_4_text_yandex.txt", "w", encoding="utf-8") as f_result:
             f_result.write(line_to_result)
 
 print(f"Text translate from {f_4.name} has been done in {f_result.name}")
+
