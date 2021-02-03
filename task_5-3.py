@@ -10,6 +10,8 @@ with open('text_3.txt', 'r', encoding='utf-8') as f_obj:
     print(f'average {round(sum(employee.values()) / len(employee), 3)}\n'
           f'low_cost {[i[0] for i in employee.items() if i[1] < 20000]}')
 #  ------------------------------------------- вариант решения ---------------------------------------------------------
+
+
 def task_3():
     wages = {}
     try:
