@@ -19,4 +19,3 @@ line = " "
 while line:
     line = input("пишите или не пишите!: ")
     my_file.write(f"{line}\n") if line != '' else my_file.close()
-
